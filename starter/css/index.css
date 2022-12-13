@@ -1,0 +1,151 @@
+
+.contact-section {
+    padding:  4rem 2rem;
+   
+  }
+
+  .skills-section (
+    margin: 50px;
+    padding: 100px;
+  )
+  
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+/* Section-jumbotron*/
+
+.img-fluid rounded-circle mb-3{
+
+float: right;
+height: 20%;
+width: 20%;
+}
+
+/* Section-page-section My Work*/
+.page-section{
+
+    margin-left: 12%;
+    padding-bottom: 100 px;
+}
+
+.contact-section{
+
+    margin-left: 10%;
+
+}
+#categoryGrid {
+    display: grid;
+    width: 100%;
+    padding-bottom: 100 px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 605px 605px;
+    grid-template-areas:
+    "portfolio-4 portfolio-4"
+    "portfolio-1 portfolio-2"
+    "portfolio-3 portfolio-5"
+    ;
+  }
+  
+  #portfolio-1 {
+    grid-area: portfolio-1;
+    background-image: url("../images/02-portfolio-1.jpg");
+    grid-gap: 20px 50px;
+  
+  }
+  #portfolio-2 {
+    grid-area: portfolio-2;
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #portfolio-3 {
+    grid-area: portfolio-3;
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  #portfolio-4 {
+    grid-area: portfolio-4;
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
+  
+  #portfolio-5{
+    grid-area: portfolio-5;
+    background-image: url("../images/02-run-buddy.jpg");
+  }
+  
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e9ecef;
+    margin: 10 px;
+    cursor: pointer;
+    display: grid;
+    align-content: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: gray;
+  }
+
+  
+.contact-section {
+    padding-top: 5rem;
+  }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+  .contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  .contact-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .contact-section .social a:active {
+    color: #fff;
+  }
+  
