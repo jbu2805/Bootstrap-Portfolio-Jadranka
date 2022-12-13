@@ -1,41 +1,42 @@
 
-.contact-section {
-    padding:  4rem 2rem;
-   
+a {
+    color:grey;
+    transition: all .35s;
+  }
+  
+  a:hover, a:focus {
+    color: #fcbd20;
   }
 
-  .skills-section (
-    margin: 50px;
-    padding: 100px;
-  )
-  
   .fa {
-    padding: 20px;
-    font-size: 20px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  ;
+  text-align: center;
+  text-decoration: none;
+ 
+  border-radius: 50%;
   }
-  
-  /* Add a hover effect if you want */
+ 
   .fa:hover {
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     color: white;
   }
   
-  /* Twitter */
   .fa-twitter {
     background: #55ACEE;
     color: white;
   }
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
 
 /* Section-jumbotron*/
 
@@ -53,17 +54,18 @@ width: 20%;
     padding-bottom: 100 px;
 }
 
-.contact-section{
 
-    margin-left: 10%;
+  
 
-}
+
 #categoryGrid {
     display: grid;
+    margin: 10px 12%;
     width: 100%;
     padding-bottom: 100 px;
     grid-template-rows: 200px 200px 200px;
     grid-template-columns: 605px 605px;
+    gap: 50px 20px;
     grid-template-areas:
     "portfolio-4 portfolio-4"
     "portfolio-1 portfolio-2"
@@ -74,8 +76,7 @@ width: 20%;
   #portfolio-1 {
     grid-area: portfolio-1;
     background-image: url("../images/02-portfolio-1.jpg");
-    grid-gap: 20px 50px;
-  
+    
   }
   #portfolio-2 {
     grid-area: portfolio-2;
@@ -102,22 +103,30 @@ width: 20%;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #e9ecef;
+   
     margin: 10 px;
     cursor: pointer;
     display: grid;
     align-content: center;
+    row-gap: 10px;
     border-width: 5px;
     border-style: solid;
     border-color: gray;
   }
 
+/* Section-Contact section*/
+  .contact-section{
+
+    margin-left: 10%;
+
+}
   
 .contact-section {
     padding-top: 5rem;
   }
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid gray;
   }
   .contact-section .card h4 {
     font-size: 0.8rem;
@@ -126,7 +135,7 @@ width: 20%;
     letter-spacing: 0.15rem;
   }
   .contact-section .card hr {
-    border-color: #64a19d;
+    border-color: gray;
     border-width: 0.25rem;
     width: 3rem;
   }
@@ -149,3 +158,25 @@ width: 20%;
     color: #fff;
   }
   
+  footer{
+    justify-content: center;
+  }
+
+
+ @media screen and (max-width:600px){
+        #categoryGrid 
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        grid-template-columns: 605px;
+        gap: 50px 20px;
+        grid-template-areas:
+        "portfolio-4"
+        "portfolio-1"
+        "portfolio-2"
+        "portfolio-3" 
+        "portfolio-5"
+        ;
+        
+        }
+
+
+        
