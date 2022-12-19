@@ -9,11 +9,13 @@ a {
   }
 
   .fa {
-  ;
+  
   text-align: center;
   text-decoration: none;
- 
+ width: 30px;
+ height:30px;
   border-radius: 50%;
+  padding-top: 5px;
   }
  
   .fa:hover {
@@ -55,7 +57,9 @@ width: 20%;
 }
 
 
-  
+  #skills {
+    margin-top: 50px;
+  }
 
 
 #categoryGrid {
@@ -117,12 +121,12 @@ width: 20%;
 /* Section-Contact section*/
   .contact-section{
 
-    margin-left: 10%;
+   
 
 }
   
 .contact-section {
-    padding-top: 5rem;
+    padding-top: 1rem;
   }
   .contact-section .card {
     border: 0;
@@ -163,17 +167,17 @@ width: 20%;
   }
 
 
- @media screen and (max-width:600px){
+ @media screen and (max-width:800px){
         #categoryGrid 
-        grid-template-rows: 200px 200px 200px 200px 200px;
-        grid-template-columns: 605px;
+       {grid-template-rows: 200px 200px 200px 200px 200px;
+        grid-template-columns: 505px;
         gap: 50px 20px;
         grid-template-areas:
         "portfolio-4"
         "portfolio-1"
         "portfolio-2"
         "portfolio-3" 
-        "portfolio-5"
+        "portfolio-5"}
         ;
         
         }
